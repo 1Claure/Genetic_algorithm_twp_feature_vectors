@@ -1,0 +1,449 @@
+
+======================================================================
+  INICIO DEL PIPELINE: AG + TWP + LDA
+======================================================================
+
+======================================================================
+  SUJETO 1 / 8
+======================================================================
+
+📊 Matriz TWP: (60, 80)
+
+🧬 Ejecutando AG...
+Gen   0 | Max:  35.417 | Avg:  18.196 | Std:  6.735
+Gen  10 | Max:  53.750 | Avg:  46.429 | Std:  3.498
+Gen  20 | Max:  67.083 | Avg:  60.533 | Std:  4.883
+Gen  30 | Max:  69.583 | Avg:  66.013 | Std:  4.021
+Gen  40 | Max:  73.333 | Avg:  67.683 | Std:  4.866
+Gen  50 | Max:  73.333 | Avg:  70.046 | Std:  5.284
+⚠️  Early stopping en generación 54 (sin mejora por 15 generaciones)
+
+✅ Seleccionadas: 8/80 (10.0%)
+   Fitness AG: 73.3333
+
+============================================================
+  ANÁLISIS DE CARACTERÍSTICAS SELECCIONADAS
+============================================================
+Total seleccionadas: 8 de 80
+
+📊 Distribución por Canal:
+  C3          :  1 ██
+  Cz          :  2 ████
+  C4          :  1 ██
+  P3          :  1 ██
+  Pz          :  3 ██████
+
+🎵 Distribución por Nodo Wavelet:
+  Nodo  0:  1 ██
+  Nodo  1:  0 
+  Nodo  2:  1 ██
+  Nodo  3:  0 
+  Nodo  4:  0 
+  Nodo  5:  0 
+  Nodo  6:  2 ████
+  Nodo  7:  1 ██
+  Nodo  8:  0 
+  Nodo  9:  1 ██
+  Nodo 10:  0 
+  Nodo 11:  0 
+  Nodo 12:  0 
+  Nodo 13:  0 
+  Nodo 14:  2 ████
+  Nodo 15:  0 
+============================================================
+
+🎓 Entrenando LDA...
+   📈 Calibración - Acc: 83.33% | TPR: 86.67%
+🎯 Evaluando Terapia...
+   🎯 Terapia     - Acc: 63.33% | TPR: 60.98%
+
+======================================================================
+  SUJETO 2 / 8
+======================================================================
+
+📊 Matriz TWP: (60, 80)
+
+🧬 Ejecutando AG...
+Gen   0 | Max:  37.500 | Avg:  21.004 | Std:  6.761
+Gen  10 | Max:  60.417 | Avg:  52.583 | Std:  4.174
+Gen  20 | Max:  70.000 | Avg:  66.608 | Std:  3.207
+Gen  30 | Max:  75.833 | Avg:  71.263 | Std:  4.667
+Gen  40 | Max:  77.500 | Avg:  74.900 | Std:  4.134
+Gen  50 | Max:  78.750 | Avg:  75.629 | Std:  4.916
+⚠️  Early stopping en generación 59 (sin mejora por 15 generaciones)
+
+✅ Seleccionadas: 5/80 (6.2%)
+   Fitness AG: 78.7500
+
+============================================================
+  ANÁLISIS DE CARACTERÍSTICAS SELECCIONADAS
+============================================================
+Total seleccionadas: 5 de 80
+
+📊 Distribución por Canal:
+  C3          :  0 
+  Cz          :  1 ██
+  C4          :  2 ████
+  P3          :  2 ████
+  Pz          :  0 
+
+🎵 Distribución por Nodo Wavelet:
+  Nodo  0:  1 ██
+  Nodo  1:  1 ██
+  Nodo  2:  0 
+  Nodo  3:  0 
+  Nodo  4:  1 ██
+  Nodo  5:  0 
+  Nodo  6:  1 ██
+  Nodo  7:  0 
+  Nodo  8:  0 
+  Nodo  9:  0 
+  Nodo 10:  0 
+  Nodo 11:  0 
+  Nodo 12:  1 ██
+  Nodo 13:  0 
+  Nodo 14:  0 
+  Nodo 15:  0 
+============================================================
+
+🎓 Entrenando LDA...
+   📈 Calibración - Acc: 83.33% | TPR: 90.00%
+🎯 Evaluando Terapia...
+   🎯 Terapia     - Acc: 63.33% | TPR: 72.22%
+
+======================================================================
+  SUJETO 3 / 8
+======================================================================
+
+📊 Matriz TWP: (60, 80)
+
+🧬 Ejecutando AG...
+Gen   0 | Max:  28.333 | Avg:  13.621 | Std:  7.330
+Gen  10 | Max:  53.750 | Avg:  44.933 | Std:  4.764
+Gen  20 | Max:  63.750 | Avg:  57.354 | Std:  4.719
+Gen  30 | Max:  68.750 | Avg:  65.046 | Std:  3.925
+Gen  40 | Max:  71.250 | Avg:  67.812 | Std:  4.350
+Gen  50 | Max:  71.250 | Avg:  68.429 | Std:  4.312
+⚠️  Early stopping en generación 54 (sin mejora por 15 generaciones)
+
+✅ Seleccionadas: 10/80 (12.5%)
+   Fitness AG: 72.5000
+
+============================================================
+  ANÁLISIS DE CARACTERÍSTICAS SELECCIONADAS
+============================================================
+Total seleccionadas: 10 de 80
+
+📊 Distribución por Canal:
+  C3          :  3 ██████
+  Cz          :  2 ████
+  C4          :  0 
+  P3          :  1 ██
+  Pz          :  4 ████████
+
+🎵 Distribución por Nodo Wavelet:
+  Nodo  0:  1 ██
+  Nodo  1:  1 ██
+  Nodo  2:  1 ██
+  Nodo  3:  1 ██
+  Nodo  4:  0 
+  Nodo  5:  0 
+  Nodo  6:  2 ████
+  Nodo  7:  0 
+  Nodo  8:  0 
+  Nodo  9:  0 
+  Nodo 10:  2 ████
+  Nodo 11:  0 
+  Nodo 12:  0 
+  Nodo 13:  2 ████
+  Nodo 14:  0 
+  Nodo 15:  0 
+============================================================
+
+🎓 Entrenando LDA...
+   📈 Calibración - Acc: 85.00% | TPR: 90.00%
+🎯 Evaluando Terapia...
+   🎯 Terapia     - Acc: 51.67% | TPR: 96.43%
+
+======================================================================
+  SUJETO 4 / 8
+======================================================================
+
+📊 Matriz TWP: (60, 80)
+
+🧬 Ejecutando AG...
+Gen   0 | Max:  15.000 | Avg:  -3.304 | Std:  6.908
+Gen  10 | Max:  35.833 | Avg:  25.854 | Std:  4.956
+Gen  20 | Max:  54.583 | Avg:  42.350 | Std:  4.514
+Gen  30 | Max:  64.583 | Avg:  56.267 | Std:  5.546
+Gen  40 | Max:  63.750 | Avg:  57.062 | Std:  7.779
+Gen  50 | Max:  63.750 | Avg:  58.333 | Std:  9.248
+Gen  60 | Max:  66.667 | Avg:  59.046 | Std:  9.898
+⚠️  Early stopping en generación 68 (sin mejora por 15 generaciones)
+
+✅ Seleccionadas: 8/80 (10.0%)
+   Fitness AG: 66.6667
+
+============================================================
+  ANÁLISIS DE CARACTERÍSTICAS SELECCIONADAS
+============================================================
+Total seleccionadas: 8 de 80
+
+📊 Distribución por Canal:
+  C3          :  1 ██
+  Cz          :  1 ██
+  C4          :  1 ██
+  P3          :  1 ██
+  Pz          :  4 ████████
+
+🎵 Distribución por Nodo Wavelet:
+  Nodo  0:  0 
+  Nodo  1:  0 
+  Nodo  2:  2 ████
+  Nodo  3:  0 
+  Nodo  4:  0 
+  Nodo  5:  0 
+  Nodo  6:  0 
+  Nodo  7:  0 
+  Nodo  8:  1 ██
+  Nodo  9:  1 ██
+  Nodo 10:  0 
+  Nodo 11:  0 
+  Nodo 12:  2 ████
+  Nodo 13:  1 ██
+  Nodo 14:  1 ██
+  Nodo 15:  0 
+============================================================
+
+🎓 Entrenando LDA...
+   📈 Calibración - Acc: 76.67% | TPR: 83.33%
+🎯 Evaluando Terapia...
+   🎯 Terapia     - Acc: 43.33% | TPR: 8.70%
+
+======================================================================
+  SUJETO 5 / 8
+======================================================================
+
+📊 Matriz TWP: (60, 80)
+
+🧬 Ejecutando AG...
+Gen   0 | Max:  17.500 | Avg:  -0.467 | Std:  7.570
+Gen  10 | Max:  42.083 | Avg:  28.067 | Std:  4.369
+Gen  20 | Max:  56.250 | Avg:  43.933 | Std:  6.485
+Gen  30 | Max:  60.417 | Avg:  53.812 | Std:  6.647
+Gen  40 | Max:  62.083 | Avg:  56.413 | Std:  7.458
+Gen  50 | Max:  62.083 | Avg:  57.000 | Std:  7.292
+⚠️  Early stopping en generación 57 (sin mejora por 15 generaciones)
+
+✅ Seleccionadas: 9/80 (11.2%)
+   Fitness AG: 62.0833
+
+============================================================
+  ANÁLISIS DE CARACTERÍSTICAS SELECCIONADAS
+============================================================
+Total seleccionadas: 9 de 80
+
+📊 Distribución por Canal:
+  C3          :  2 ████
+  Cz          :  1 ██
+  C4          :  2 ████
+  P3          :  3 ██████
+  Pz          :  1 ██
+
+🎵 Distribución por Nodo Wavelet:
+  Nodo  0:  1 ██
+  Nodo  1:  0 
+  Nodo  2:  1 ██
+  Nodo  3:  1 ██
+  Nodo  4:  2 ████
+  Nodo  5:  0 
+  Nodo  6:  0 
+  Nodo  7:  2 ████
+  Nodo  8:  0 
+  Nodo  9:  0 
+  Nodo 10:  1 ██
+  Nodo 11:  0 
+  Nodo 12:  0 
+  Nodo 13:  1 ██
+  Nodo 14:  0 
+  Nodo 15:  0 
+============================================================
+
+🎓 Entrenando LDA...
+   📈 Calibración - Acc: 73.33% | TPR: 80.00%
+🎯 Evaluando Terapia...
+   🎯 Terapia     - Acc: 50.00% | TPR: 71.43%
+
+======================================================================
+  SUJETO 6 / 8
+======================================================================
+
+📊 Matriz TWP: (60, 80)
+
+🧬 Ejecutando AG...
+Gen   0 | Max:  46.667 | Avg:  29.225 | Std:  8.084
+Gen  10 | Max:  69.583 | Avg:  60.167 | Std:  4.121
+Gen  20 | Max:  77.083 | Avg:  71.996 | Std:  4.095
+Gen  30 | Max:  79.167 | Avg:  75.721 | Std:  4.399
+Gen  40 | Max:  82.083 | Avg:  78.300 | Std:  3.915
+Gen  50 | Max:  84.583 | Avg:  79.767 | Std:  3.881
+Gen  60 | Max:  84.583 | Avg:  80.967 | Std:  5.666
+⚠️  Early stopping en generación 64 (sin mejora por 15 generaciones)
+
+✅ Seleccionadas: 11/80 (13.8%)
+   Fitness AG: 84.5833
+
+============================================================
+  ANÁLISIS DE CARACTERÍSTICAS SELECCIONADAS
+============================================================
+Total seleccionadas: 11 de 80
+
+📊 Distribución por Canal:
+  C3          :  2 ████
+  Cz          :  2 ████
+  C4          :  0 
+  P3          :  2 ████
+  Pz          :  5 ██████████
+
+🎵 Distribución por Nodo Wavelet:
+  Nodo  0:  2 ████
+  Nodo  1:  0 
+  Nodo  2:  1 ██
+  Nodo  3:  1 ██
+  Nodo  4:  1 ██
+  Nodo  5:  1 ██
+  Nodo  6:  1 ██
+  Nodo  7:  0 
+  Nodo  8:  0 
+  Nodo  9:  0 
+  Nodo 10:  0 
+  Nodo 11:  1 ██
+  Nodo 12:  0 
+  Nodo 13:  0 
+  Nodo 14:  1 ██
+  Nodo 15:  2 ████
+============================================================
+
+🎓 Entrenando LDA...
+   📈 Calibración - Acc: 98.33% | TPR: 96.67%
+🎯 Evaluando Terapia...
+   🎯 Terapia     - Acc: 71.67% | TPR: 84.38%
+
+======================================================================
+  SUJETO 7 / 8
+======================================================================
+
+📊 Matriz TWP: (60, 80)
+
+🧬 Ejecutando AG...
+Gen   0 | Max:  29.583 | Avg:  10.779 | Std:  7.889
+Gen  10 | Max:  48.333 | Avg:  41.167 | Std:  4.314
+Gen  20 | Max:  61.250 | Avg:  51.621 | Std:  4.627
+Gen  30 | Max:  67.083 | Avg:  60.163 | Std:  5.070
+Gen  40 | Max:  69.583 | Avg:  61.713 | Std:  4.875
+Gen  50 | Max:  72.500 | Avg:  64.862 | Std:  5.684
+Gen  60 | Max:  72.500 | Avg:  68.321 | Std:  6.474
+Gen  70 | Max:  75.000 | Avg:  70.650 | Std:  5.713
+Gen  80 | Max:  76.250 | Avg:  71.438 | Std:  7.766
+⚠️  Early stopping en generación 88 (sin mejora por 15 generaciones)
+
+✅ Seleccionadas: 7/80 (8.8%)
+   Fitness AG: 76.2500
+
+============================================================
+  ANÁLISIS DE CARACTERÍSTICAS SELECCIONADAS
+============================================================
+Total seleccionadas: 7 de 80
+
+📊 Distribución por Canal:
+  C3          :  0 
+  Cz          :  2 ████
+  C4          :  2 ████
+  P3          :  2 ████
+  Pz          :  1 ██
+
+🎵 Distribución por Nodo Wavelet:
+  Nodo  0:  0 
+  Nodo  1:  1 ██
+  Nodo  2:  0 
+  Nodo  3:  1 ██
+  Nodo  4:  0 
+  Nodo  5:  0 
+  Nodo  6:  2 ████
+  Nodo  7:  1 ██
+  Nodo  8:  0 
+  Nodo  9:  0 
+  Nodo 10:  1 ██
+  Nodo 11:  0 
+  Nodo 12:  0 
+  Nodo 13:  0 
+  Nodo 14:  0 
+  Nodo 15:  1 ██
+============================================================
+
+🎓 Entrenando LDA...
+   📈 Calibración - Acc: 81.67% | TPR: 83.33%
+🎯 Evaluando Terapia...
+   🎯 Terapia     - Acc: 53.33% | TPR: 69.70%
+
+======================================================================
+  SUJETO 8 / 8
+======================================================================
+
+📊 Matriz TWP: (60, 80)
+
+🧬 Ejecutando AG...
+Gen   0 | Max:  20.000 | Avg:   4.929 | Std:  5.984
+Gen  10 | Max:  38.750 | Avg:  32.612 | Std:  3.297
+Gen  20 | Max:  52.500 | Avg:  46.433 | Std:  4.247
+Gen  30 | Max:  54.583 | Avg:  50.033 | Std:  4.389
+Gen  40 | Max:  55.833 | Avg:  53.750 | Std:  3.776
+⚠️  Early stopping en generación 48 (sin mejora por 15 generaciones)
+
+✅ Seleccionadas: 6/80 (7.5%)
+   Fitness AG: 55.8333
+
+============================================================
+  ANÁLISIS DE CARACTERÍSTICAS SELECCIONADAS
+============================================================
+Total seleccionadas: 6 de 80
+
+📊 Distribución por Canal:
+  C3          :  3 ██████
+  Cz          :  1 ██
+  C4          :  2 ████
+  P3          :  0 
+  Pz          :  0 
+
+🎵 Distribución por Nodo Wavelet:
+  Nodo  0:  1 ██
+  Nodo  1:  0 
+  Nodo  2:  1 ██
+  Nodo  3:  0 
+  Nodo  4:  0 
+  Nodo  5:  1 ██
+  Nodo  6:  0 
+  Nodo  7:  1 ██
+  Nodo  8:  1 ██
+  Nodo  9:  0 
+  Nodo 10:  0 
+  Nodo 11:  0 
+  Nodo 12:  0 
+  Nodo 13:  0 
+  Nodo 14:  1 ██
+  Nodo 15:  0 
+============================================================
+
+🎓 Entrenando LDA...
+   📈 Calibración - Acc: 66.67% | TPR: 90.00%
+🎯 Evaluando Terapia...
+   🎯 Terapia     - Acc: 50.00% | TPR: 78.79%
+
+======================================================================
+  RESUMEN DE EJECUCIÓN
+======================================================================
+✅ Sujetos procesados exitosamente: 8/8
+✅ Todos los sujetos procesados sin errores
+======================================================================
+
+✅ Pipeline completado. 8 sujetos listos para análisis.
