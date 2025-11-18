@@ -169,26 +169,3 @@ if __name__ == '__main__':
     mat_contents = loadmat('./data/im_tention_signals/Acevedo/6-9_02-10-23.mat', squeeze_me=True)
     print(mat_contents['attempt_results'])
 
-    # data = create_mat_files('./data/im_tention_signals', file_type='therapy')
-
-    #'calibration' and joined = False
-    # print(data['subject_1']['mi'].shape)
-    # print(data['subject_1']['rest'].shape)
-
-    #'calibration' and joined = True
-    # print(data['subject_1']['mi_rest'].shape)
-
-    #'therapy' and joined = False
-    # print(data['subject_1']['mi'].shape)
-    # print(data['subject_1']['rest'].shape)
-    # print(data['subject_1']['target'].shape)
-
-    # # 'therapy' and mi_only = True
-    # print(data['subject_1']['mi'].shape)
-    # print(data['subject_1']['target'].shape)
-
-    #'therapy' joined = true and mi_only = False
-    # print(data['subject_1']['mi_rest'].shape)
-    # print(data['subject_1']['target'].shape)
-
-
