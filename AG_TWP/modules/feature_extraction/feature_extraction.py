@@ -8,13 +8,7 @@ def get_twp_feature_vectors(data_per_subject, wavelet='coif3', level=3,
                            normalize=False, log_transform=False):
     """
     Extraer vectores de características usando Energía de Transformada Wavelet Packet (TWP).
-    
-    MEJORAS:
-    - Parámetros por defecto actualizados (wavelet='coif3', level=3)
-    - Procesa TODOS los canales individualmente
-    - Opción de normalización y transformación logarítmica
-    - Mejor documentación
-    
+
     Args:
         data_per_subject (array): Matriz con forma (n_samples, n_channels, n_trials)
         wavelet (str): Tipo de wavelet (default: 'coif3')

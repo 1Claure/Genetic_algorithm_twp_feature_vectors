@@ -130,9 +130,8 @@ def run_genetic_algorithm(X_twp, Y_targets, pop_size=100, num_generations=100,
     # Hall of Fame (guardar mejores individuos)
     hof = tools.HallOfFame(5)  # Guardar top 5
     
-    # ========================================================================
     # ALGORITMO CON EARLY STOPPING
-    # ========================================================================
+
     best_fitness_history = []
     generations_without_improvement = 0
     
